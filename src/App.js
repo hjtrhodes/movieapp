@@ -63,7 +63,6 @@ export default function App() {
       </NavBar>
 
       <main className="main">
-        {/* Passing elements as props */}
         <Box element={<MovieList movies={movies} />} />
         <Box element={<WatchedSummaryList watched={watched} />} />
       </main>
